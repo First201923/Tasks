@@ -11,7 +11,7 @@ namespace Lesson6._1
         static void Main(string[] args)
         {
             Team team = new Team();
-            team[0] = new Player { Name = "Ronaldo", Number = 9 };
+            team[0] = new Player { Name = "fefsef", Number = 9 };
             team[1] = new Player { Name = "R. Baggio", Number = 10 };
             team[12] = new Player { Name = "Simeone", Number = 8 };
             Console.WriteLine($"{team[12].Name} {team[12].Number}");
